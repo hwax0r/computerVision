@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ComputerVision"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\installation\;CMake Files\..\..\installation\OpenCV-master\;CMake Files\..\..\installation\OpenCV-master\lib\;CMake Files\..\..\installation\OpenCV-master\lib\cmake\;CMake Files\..\..\installation\OpenCV-master\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComputerVision">
+				<Option output="/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/ComputerVision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_calib3d"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_core"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dnn"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_features2d"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_flann"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_gapi"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_highgui"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_imgcodecs"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_imgproc"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_ml"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_objdetect"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_photo"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_stitching"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_video"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_videoio"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_aruco"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_bgsegm"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_bioinspired"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_ccalib"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_cvv"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_datasets"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dnn_objdetect"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dnn_superres"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dpm"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_face"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_fuzzy"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_hfs"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_img_hash"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_intensity_transform"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_line_descriptor"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_optflow"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_phase_unwrapping"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_plot"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_quality"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_rapid"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_reg"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_rgbd"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_saliency"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_shape"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_stereo"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_structured_light"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_superres"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_surface_matching"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_text"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_tracking"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_videostab"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_xfeatures2d"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_ximgproc"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_xobjdetect"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_xphoto"/>
+					<Add directory="/Users/hwax0r/installation/OpenCV-master/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputerVision"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ComputerVision/fast">
+				<Option output="/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/ComputerVision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_calib3d"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_core"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dnn"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_features2d"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_flann"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_gapi"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_highgui"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_imgcodecs"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_imgproc"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_ml"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_objdetect"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_photo"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_stitching"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_video"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_videoio"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_aruco"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_bgsegm"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_bioinspired"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_ccalib"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_cvv"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_datasets"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dnn_objdetect"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dnn_superres"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_dpm"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_face"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_fuzzy"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_hfs"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_img_hash"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_intensity_transform"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_line_descriptor"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_optflow"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_phase_unwrapping"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_plot"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_quality"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_rapid"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_reg"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_rgbd"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_saliency"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_shape"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_stereo"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_structured_light"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_superres"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_surface_matching"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_text"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_tracking"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_videostab"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_xfeatures2d"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_ximgproc"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_xobjdetect"/>
+					<Add directory="/Users/hwax0r/CLionProjects/ComputerVision/opencv_xphoto"/>
+					<Add directory="/Users/hwax0r/installation/OpenCV-master/include/opencv4"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 ComputerVision/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/hwax0r/CLionProjects/ComputerVision/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/main.cpp">
+			<Option target="ComputerVision"/>
+		</Unit>
+		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/../../installation/OpenCV-master/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/../../installation/OpenCV-master/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/../../installation/OpenCV-master/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/../../installation/OpenCV-master/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\installation\OpenCV-master\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
