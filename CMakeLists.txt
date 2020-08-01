@@ -12,7 +12,7 @@ include_directories( ${OpenCV_INCLUDE_DIRS} )
 include_directories( ${OpenCV_LIBS} )
 
 # specify the executable target to be built
-add_executable(ComputerVision main.cpp)
+add_executable(ComputerVision main.cpp moduleVideo.h)
 
 # tell it to link the executable target against OpenCV
 target_link_libraries(ComputerVision ${OpenCV_LIBS} )

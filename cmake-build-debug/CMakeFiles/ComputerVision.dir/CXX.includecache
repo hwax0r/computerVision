@@ -7,13 +7,21 @@
 #IncludeRegexTransform: 
 
 /Users/hwax0r/CLionProjects/ComputerVision/main.cpp
+vector
+-
+unistd.h
+-
+moduleVideo.h
+/Users/hwax0r/CLionProjects/ComputerVision/moduleVideo.h
+
+/Users/hwax0r/CLionProjects/ComputerVision/moduleVideo.h
 opencv2/opencv.hpp
 -
 opencv2/face.hpp
 -
 vector
 -
-unistd.h
+chrono
 -
 
 /Users/hwax0r/installation/OpenCV-master/include/opencv4/opencv2/calib3d.hpp

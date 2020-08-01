@@ -185,6 +185,9 @@
 		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/main.cpp">
 			<Option target="ComputerVision"/>
 		</Unit>
+		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/moduleVideo.h">
+			<Option target="ComputerVision"/>
+		</Unit>
 		<Unit filename="/Users/hwax0r/CLionProjects/ComputerVision/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

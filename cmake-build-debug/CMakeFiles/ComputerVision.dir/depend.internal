@@ -3,6 +3,7 @@
 
 CMakeFiles/ComputerVision.dir/main.cpp.o
  /Users/hwax0r/CLionProjects/ComputerVision/main.cpp
+ /Users/hwax0r/CLionProjects/ComputerVision/moduleVideo.h
  /Users/hwax0r/installation/OpenCV-master/include/opencv4/opencv2/calib3d.hpp
  /Users/hwax0r/installation/OpenCV-master/include/opencv4/opencv2/core.hpp
  /Users/hwax0r/installation/OpenCV-master/include/opencv4/opencv2/core/affine.hpp
