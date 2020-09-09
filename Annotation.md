@@ -27,4 +27,5 @@ ___
         test.push_back(frame);
     }
 ```
+![Face marks](./images/figure_68_markup.jpg)
 

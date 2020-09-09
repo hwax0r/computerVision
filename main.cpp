@@ -3,6 +3,7 @@
 #include "moduleVideo.h"
 
 vector<Mat> testInput(){
+    // деление видео на кадры
     Timer timer;
     vector<Mat> testFrames;
     VideoCapture movie("/Users/hwax0r/CLionProjects/ComputerVision/testMovie.mov");
@@ -27,7 +28,7 @@ int main()
     newDetection.loadClassifierAndFacemarks();
     newDetection.loadModel(test);
     newDetection.faceDetection();
-//    newDetection.saveInFolder();
+    newDetection.showInWindow();
 
     cout << "ошибки" << endl;
     moduleVideo kekw;

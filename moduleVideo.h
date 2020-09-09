@@ -1,22 +1,20 @@
 //
 // Created by David Sergeev on 30.07.2020.
 //
+#ifndef COMPUTERVISION_MODULEVIDEO_H
+#define COMPUTERVISION_MODULEVIDEO_H
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/face.hpp>
 #include <vector>
-// таймер
+#include <map>
 #include <chrono>
 
 using namespace std;
 using namespace cv;
 using namespace cv::face;
-// таймер для дебага
 using namespace chrono;
 using namespace chrono_literals;
-
-#ifndef COMPUTERVISION_MODULEVIDEO_H
-#define COMPUTERVISION_MODULEVIDEO_H
 
 #define COLOR Scalar(255, 200,0)
 const string kPathToCV = "/Users/hwax0r/installation/OpenCV-master/share/opencv4/";
@@ -49,6 +47,7 @@ private:
     // массив обработанных кадров
     vector<Mat> processed_Frames;
 
+    //нужно для единоразовой подгрузки нейронки и модели лица
     Ptr<FacemarkLBF> facemark;
     CascadeClassifier face_detector;
 
@@ -140,7 +139,8 @@ public:
             drawPolyline(im, landmarks, 42, 47, true);    // Right Eye
             drawPolyline(im, landmarks, 48, 59, true);    // Outer lip
             drawPolyline(im, landmarks, 60, 67, true);    // Inner lip
-        }
+            //return true;
+        }; //else return false;
 //        else // только если распознана лишь часть точек или лицо маленькое.
 //        {
 //            for(int i = 0; i < landmarks.size(); i++)
@@ -170,7 +170,7 @@ public:
     }
 
     void faceDetection(){
-        cout << "faceDetection for " << this->input_Frames.size() << " frames ";
+        cout << "faceDetection for " << this->input_Frames.size() << " frames\n";
         Timer timer;
 
         vector<Mat> result;
@@ -260,6 +260,9 @@ public:
     // Найти середину линии мажду точками landmarks с левой/правой части подбородка.
     // Создать прямоугольник с центром в этой точке, один краем со внешней стороны лица,
     // другим краем, смотрящим в сторону носа/центра лица.
+
+    void algorithm(Mat& frame, vector<Point2f> &landmarks){
+    }
 
 };
 
